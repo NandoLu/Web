@@ -5,7 +5,7 @@ const Port = 5001;
 // Porta 8080 = Internet 
 
 app.get("/teste",(req,res)=>{
-    res.semd("Olá servidor Teste ok")
+    res.send("Olá servidor Teste ok")
 });
 
 app.get("/sistema", (req,res)=>{
